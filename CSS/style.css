@@ -35,25 +35,29 @@ width: 100%;
 }
 .two{
 position: absolute;
-top:110px;
-left: 630px;
+top:15%;
+left: 40%;
+z-index: 10px;
 }
 .three{
    position: absolute;
-top: 10px;
-left:20px;
+top: 3%;
+left:5%;
     height: 120px;
+    z-index: 12px;
 }
 .four{
   position: absolute;
-top: 2px;
-  right: 10px;
+top: 0;
+  right: 2%;
   height: 200px;
+  z-index: 14px;
 }
 .five{position: absolute;
   top: 150px;
   left: 350px;
  height: 130px;
+ z-index: 8px;
 }
 .six{
       object-fit: contain;
@@ -63,8 +67,9 @@ top: 2px;
   text-align: center;
   font-size: 25px;
   position: absolute;
-  top: 380px;
-  left:480px;
+  top: 55%;
+  left:30%;
+  z-index: 18px;
 
 }
 .eight{
@@ -129,7 +134,7 @@ text-align: center;
   width: 50px;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 28px;
+
 }
 .fa-facebook {
   background: #3B5998;
